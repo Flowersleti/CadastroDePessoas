@@ -22,8 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.114.4" />
   </ItemGroup>
 
 </Project>

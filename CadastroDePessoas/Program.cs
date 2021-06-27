@@ -1,3 +1,4 @@
+using CadastroDePessoas.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace CadastroDePessoas
         [STAThread]
         static void Main()
         {
+            DBConfig.CriarTabelaSQlite();
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
